@@ -1,0 +1,112 @@
+    * {
+        margin: 0;
+        padding: 0;
+        font-family: sans-serif;
+    }
+    
+    .body {
+        width: 100%;
+        height: 100vh;
+        background-position: center;
+        background-size: cover;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.100), rgba(25, 0, 0, 0.75)), url(./1288047.webp);
+    }
+    
+    .navbar {
+        background-color: rgb(0, 0, 0);
+        width: 100%;
+        margin: auto;
+        padding: 0;
+        display: flex;
+        align-items: center;
+    }
+    
+    .logo {
+        width: 130px;
+        cursor: pointer;
+        /* left: 0px; */
+        margin: 10px;
+        padding: 10px 10px 0 50px;
+    }
+    
+    .navbar ul li {
+        list-style: none;
+        display: inline-block;
+        margin: 0 50px;
+        position: relative;
+        left: 20%;
+    }
+    
+    .navbar ul li a {
+        text-decoration: none;
+        color: #fff;
+        text-transform: uppercase;
+    }
+    
+    .navbar ul li::after {
+        content: '';
+        height: 3px;
+        width: 0%;
+        background-color: #7bff00;
+        position: absolute;
+        left: 0;
+        bottom: -10px;
+        transition: 0.5s;
+    }
+    
+    .navbar ul li:hover::after {
+        width: 100%;
+    }
+    
+    .content {
+        width: 60%;
+        position: absolute;
+        color: #827A7A;
+        top: 80%;
+        transform: translate(61%);
+    }
+    
+    .content h1 {
+        font-size: 80px;
+        margin-top: -550px;
+        margin-left: 400px;
+    }
+    
+    .content p {
+        margin: 20px auto;
+        font-weight: 100;
+        line-height: 25px;
+        margin-left: 400px;
+    }
+    
+    .footer {
+        background-color: #808B8F;
+        width: 100%;
+        padding: 100px 10px;
+        margin: -20px;
+        align-items: center;
+    }
+    
+    .footer h1 {
+        text-shadow: 10px 14px 3px #9b3030;
+        font-size: 100px;
+        text-align: center;
+        position: relative;
+    }
+    
+    footer {
+        text-align: center;
+    }
+    
+    .lasttext {
+        font-family: Arial, Helvetica, sans-serif;
+        font-style: italic;
+        font-size: 15px;
+        background-color: #808B8F;
+    }
+    
+    footer p {
+        font-size: 20px;
+        margin: 0;
+        background-color: #808B8F;
+    }
