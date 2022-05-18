@@ -1,0 +1,63 @@
+body{
+    background-image: url(nikolatesla.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height:100%;
+    width:100%;
+}
+
+footer{
+    background-color:grey;
+}
+
+nav {
+    background-color: rgb(70, 59, 231);
+}
+
+nav ul {
+    list-style-type: none;
+    overflow: hidden;
+}
+
+nav li {
+    float: left;
+}
+
+nav li a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 1em;
+    transition: all .3s ease-in-out;
+}
+
+nav li a:hover {
+    background-color: rgb(135, 35, 202);
+    transform: rotate(3deg) scale(1.2);
+}
+
+.text{
+    justify-content: center;
+    color: white;
+}
+footer {
+    background-color: grey;
+    color: black;
+    text-align: center;
+    padding: 5px 0;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+    clear: both;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+}
+img{
+    width:40px;
+    padding-left: 10px;
+    padding-top:5px;
+    float:left; 
+}
+.backimg{
+
+}
